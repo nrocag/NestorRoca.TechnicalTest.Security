@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestorRoca.TechnicalTest.Security.Api", "NestorRoca.TechnicalTest.Security.Api\NestorRoca.TechnicalTest.Security.Api.csproj", "{4E59764A-D657-428C-A8B3-072878386B53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E59764A-D657-428C-A8B3-072878386B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E59764A-D657-428C-A8B3-072878386B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E59764A-D657-428C-A8B3-072878386B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E59764A-D657-428C-A8B3-072878386B53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {781DC2FA-B39F-4181-8484-CD56CCC72D7B}
+	EndGlobalSection
+EndGlobal
