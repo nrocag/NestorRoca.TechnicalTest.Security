@@ -11,7 +11,6 @@
     using System.Security.Claims;
     using System.Text;
 
-    [Route("[Controller]/v1")]
     [ApiController]
     public class SecurityController : ControllerBase
     {
@@ -25,6 +24,7 @@
 
         [HttpGet]
         [AllowAnonymous]
+        [Route("[Controller]/v1")]
         public ActionResult Index()
         {
             return this.Ok("Sistema de seguridad");
@@ -32,6 +32,7 @@
 
         [HttpPost]
         [AllowAnonymous]
+        [Route("[Controller]/v1/Authenticate")]
         public ActionResult<User> Authenticate([FromBody]Login login)
         {
             ActionResult actionResult;
@@ -66,7 +67,6 @@
             }
             catch (Exception ex)
             {
-                //this.Instrumenter.LogError(ex, ex.Message);
                 actionResult = this.StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
 
